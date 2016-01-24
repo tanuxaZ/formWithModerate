@@ -8,3 +8,5 @@
 4) В файле /application/config/autoload.php в строке 61 закоментировать подключение сессий
 $autoload['libraries'] = array('database', 'migration'/*, 'session'*/);
 поменять на $autoload['libraries'] = array('database', 'migration', 'session');
+
+Для выполнения задания использовала framework Codeigniter, database - MySql.
